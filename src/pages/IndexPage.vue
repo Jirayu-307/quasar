@@ -9,10 +9,10 @@
       <q-input
         filled
         v-model="name"
-        label="ชื่อสกุล *"
-        hint="ชื่อและนามสกุล"
+        label="你的名字 *"
+        hint="名和姓"
         lazy-rules
-        :rules="[ val => val && val.length > 0 || 'กรุณาพิมพ์บางอย่าง']"
+        :rules="[ val => val && val.length > 0 || '請輸入一些內容']"
       />
       <q-input
         filled
